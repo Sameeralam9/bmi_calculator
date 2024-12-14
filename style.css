@@ -1,0 +1,54 @@
+body{
+	background-color: #212121;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.outer{
+	background-color: lightgrey;
+	width: 450px;
+	height: 350px;
+	border-radius: 15px;
+	border:1px solid black;
+	
+}
+.info{
+	height: 230px
+}
+.cal{
+	text-align: center;
+	align-content: center;
+	height: 230px
+	background-color: blue;
+
+
+}
+.inner{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+h4{
+	margin:10px 0px 10px 0px;
+}
+.heightInput{
+	text-align: center;
+	border-radius: 5px;
+}
+.weightInput{
+	text-align: center;
+	border-radius: 5px;
+}
+.btn{
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	border-radius: 15px;
+	text-align: center;
+}
+.result{
+	text-align: center;
+	font-style: italic;
+}
